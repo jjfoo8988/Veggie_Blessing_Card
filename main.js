@@ -20,8 +20,8 @@ const nextBtn = document.querySelector('#nextBtn');
 
 //Slide image counter
 var counter = 1;
-const size = carouselImages[0].clientWidth;
-
+const size = 227;
+console.log("carouselImages size is " + size);
 carouselSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';
 
 //Slide Image Button listener
@@ -117,7 +117,7 @@ btn.addEventListener('click', (e)=>{ //detecting mouse event
         console.log("Meals value is" + meals.value);
         console.log(Person1.csender);
        // var queryString = "?para1=" + Person1.csender;
-        //window.location.href = "../index2.html" ;
+        window.location.href = "../index2.html" ;
         //+ queryString;
         localStorage.setItem("dsender",sender.value);
         localStorage.setItem("dreceiver",receiver.value);
