@@ -117,7 +117,7 @@ btn.addEventListener('click', (e)=>{ //detecting mouse event
         console.log("Meals value is" + meals.value);
         console.log(Person1.csender);
        // var queryString = "?para1=" + Person1.csender;
-        //window.location.href = "../index2.html" ;
+        window.location.href = "../index2.html" ;
         //+ queryString;
         localStorage.setItem("dsender",sender.value);
         localStorage.setItem("dreceiver",receiver.value);
@@ -125,7 +125,7 @@ btn.addEventListener('click', (e)=>{ //detecting mouse event
         localStorage.setItem("dmeals",meals.value);  
         localStorage.setItem("dcards",carouselImages[counter].src) 
         postToGoogle(meals.value);
-        alert('ready to go');     
+        alert('感恩你的发心');     
     }
 
     
