@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>讓愛蔬醒</title>
+
+</head>
+<body>
+    <div class= 'container'>
+
+ 
+        <section id='image-holder'>
+   
+        <img src = "images/mimg01.jpg" alt = "main" class = 'image1' >
+        
+        </section>
+        <section id = 'description'>    
+        <!-- <p>
+            為親愛的__，蔬食祈福”是件很幸福的事！
+在病毒蔓延、人心慌亂時，
+我們除了安定自己的心之外，還需要更多的行動！
+邀您一起“為親愛的__，蔬食祈福”！
+不論您為親愛的家人、受災疫的人、親愛的地球來蔬食祈福都可以，不限對象！
+不論一周一日、一日一餐、日日或生生世世，不論幾日幾餐都是您的心意，都是您對親愛的__最大的祝福！
+        </p> -->
+        <p>请为您亲爱的茹素吧！
+        </p>
+        </section>
+
+        <form id = 'new-form'>
+            <p>请输入以下资料
+            <section id = 'form-group'>
+                <label for="Sender">祝福者姓名:</label>
+                <input type="text" id="Sender" name = "entry.277829981">
+            
+                <label for="Receiver">收件者:</label>
+                <input type="text" id="Receiver" name = "entry.176410795">
+
+				<label>祝福讯息:  （最多80个字）</label> 
+                <textarea id="Message" class = 'leave-message' maxlength = "80" name = "entry.690569167"></textarea><br>
+                只剩<span id = "countdown" type = "text">80</span>个字
+
+            </section>
+            <div class = subside>
+                <section id = 'select-meal-header'>
+                    <p>我愿意为对方发愿的素食餐数:
+                </section>
+
+                <section id = 'sub-display'> </section>
+                    
+                <section id = 'select-meal' name = "entry.1767992553">
+                    
+                    <input type="radio"  onclick="handleClick(this);" name = "meals" value="10"/>
+                    <label for="10m">10餐</label><br>
+                    
+                    <input type="radio" onclick="handleClick(this);" name="meals" value="30">
+                    <label for="30m">30餐</label><br>
+
+                    <input type="radio" onclick="handleClick(this);" name="meals" value="50">
+                    <label for="50m">50餐</label><br>
+
+                    <input type="radio" onclick="handleClick(this);" name="meals" value="100">
+                    <label for="100m">100餐</label><br>
+
+                    <input type="radio" onclick="handleClick(this);" name="meals" value="200">
+                    <label for="200m">200餐</label><br>
+
+                    <input type="radio" onclick="handleClick(this);" name="meals" value="300">
+                    <label for="300m">300餐</label><br>
+
+                    <input type="radio" onclick="handleClick(this);" name="meals" value="400">
+                    <label for="400m">400餐</label><br>
+
+                    <input type="radio" onclick="handleClick(this);" name="meals" value="500" >
+                    <label for="500m">500餐</label><br>
+                </section>
+            </div>
+
+            <div class="clr"></div>
+            <div class="error-msg"></div>
+
+            
+
+            
+        </form>
+        
+    </div>
+    
+    <div class= "carousal-container">
+        <p>选择您的祝福卡</p>
+        <img src = "images/arrow-left.png" id = "prevBtn">
+        <img src = "images/arrow-right.png" id = "nextBtn">            
+        <div class = "carousal-slide">
+            <img src= "images/simg03.jpg" alt ="" class = 'slide-image'  id = "lastClone">
+            <img src= "images/simg01.jpg" alt ="" class = 'slide-image'>
+            <img src= "images/simg02.jpg" alt ="" class = 'slide-image' >
+            <img src= "images/simg03.jpg" alt ="" class = 'slide-image'>
+            <img src= "images/simg01.jpg" alt ="" class = 'slide-image' id = "firstClone">
+        </div>
+    </div>
+    <div class = 'submit-form'>
+        <input class="btn" type="submit" value="确认" >
+    </div>
+
+
+
+    <footer id = 'main-footer'>
+        <p>Copyright &copy; 2020; Buddhist Tzu Chi Foundation Malaysia (Melaka) Website </p>
+    </footer> 
+<script src = '/main.js'></script>
+
+</body>
+
+</html>
