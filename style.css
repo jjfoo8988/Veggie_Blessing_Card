@@ -17,10 +17,12 @@ body{
 
 textarea{
     resize:none;
+    
 }
 
-textarea.leave-message{
+.leave-message{
     height: 5em;
+    color: black;
 }
 
 h1{
@@ -33,12 +35,19 @@ h2{
 }
 
 
+
+label{
+    font-weight: 1;
+}
+
+.input-text{
+    color:black;
+}
 .container{
 	width:90%;
     margin:auto;
     overflow: hidden;
 }
-
 .canvas-container{
     width:80%;
     margin:auto;
@@ -50,9 +59,10 @@ h2{
     width:50%;
     max-width:500px;
     margin:auto;
-    overflow: hidden;
+    /* overflow: hidden; */
     text-align:center;
     position:relative;
+
 }
     
 .carousal-slide{
@@ -60,6 +70,7 @@ h2{
     width: 100%;
     height: auto;
     text-align:center;
+    
     
     
 }
@@ -79,6 +90,7 @@ h2{
     color: black;
     opacity:0.8;
     cursor: pointer;
+    width:
 
 }
 
@@ -91,6 +103,7 @@ h2{
     color: black;
     opacity:0.8;
     cursor: pointer;
+    width: 70px;
 
 }
 .text-block{
@@ -234,28 +247,34 @@ display: block;
 #sub-display{
     display:block;
     float:right;
-    width:50%;
-    min-height: 150px;
+    width:100%;
+    padding: 10px;
     background-color: rgb(191, 121, 45);
     box-sizing: border-box;
     
     height: 100%;
     text-align: center;
-    
-        
+      
 
     
 }
 
 #select-meal{
-    display:block;
-    float:left;
-    width: 50%;
+    display:inline-block;
+    /* float:left; */
+    width: 100%;
     box-sizing: border-box;
     background-color:rgb(191, 121, 45);
     padding-left:1em;
     border: none !important;
 } 
+input[type="radio"]{
+    display: inline-block;
+    position: relative;
+    bottom: 0;
+    left: 5px;
+}
+
 
  #select-meal-header{
     float:top ;
