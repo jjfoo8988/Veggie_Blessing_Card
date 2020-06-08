@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 const content = document.querySelector('.text-block');
 var canvas = document.getElementById('canvas');
 var ctx = canvas.getContext('2d');
@@ -126,7 +125,7 @@ function download_image(){
 
    }
 
-=======
+
 const content = document.querySelector('.text-block');
 var canvas = document.getElementById('canvas');
 var ctx = canvas.getContext('2d');
@@ -254,4 +253,3 @@ function download_image(){
 
    }
 
->>>>>>> 9f5f5989759c6e0962717dc0f5d062f3366f8723

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 const myForm = document.querySelector('#new-form');
 const sender = document.querySelector('#Sender');
 const receiver = document.querySelector('#Receiver');
@@ -210,7 +209,7 @@ function postToGoogle(mealvalue) {
     });
     return false;
 }
-=======
+
 const myForm = document.querySelector('#new-form');
 const sender = document.querySelector('#Sender');
 const receiver = document.querySelector('#Receiver');
@@ -421,4 +420,4 @@ function postToGoogle(mealvalue) {
     });
     return false;
 }
->>>>>>> 9f5f5989759c6e0962717dc0f5d062f3366f8723
+
