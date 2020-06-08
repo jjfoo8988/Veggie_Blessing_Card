@@ -47,10 +47,11 @@ h2{
 }
 
 .carousal-container{
-    width:50%;
-    max-width:500px;
+    width:500px;
+    /* max-width:500px; */
     margin:auto;
     /* overflow: hidden; */
+    border: 5px solid red;
     text-align:center;
     position:relative;
 }
@@ -59,9 +60,7 @@ h2{
     display:flex;
     width: 100%;
     height: auto;
-    text-align:center;
-    
-    
+       
 }
 
 .slide-image{

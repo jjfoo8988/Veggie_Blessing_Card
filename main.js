@@ -20,7 +20,8 @@ const nextBtn = document.querySelector('#nextBtn');
 
 //Slide image counter
 var counter = 1;
-const size = 227;
+// const size = carouselImages[0].clientWidth;
+const size = 500;
 console.log("carouselImages size is " + size);
 carouselSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';
 
