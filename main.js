@@ -132,8 +132,18 @@ function sleep(ms) {
 function handleClick(meals){
     console.log(meals.value);
 
+    if(meals.value ==='10'){
+       
+    mealsimg.src = "/images/meals4.jpg";
+    mealcalc.appendChild(mealsimg);
+
     
-    if(meals.value ==='50'){
+    }else if(meals.value ==='30'){
+       
+        mealsimg.src = "/images/meals10.jpg";
+        mealcalc.appendChild(mealsimg);
+    
+    }else if(meals.value ==='50'){
        
        mealsimg.src = "/images/meals17.jpg";
        mealcalc.appendChild(mealsimg);
